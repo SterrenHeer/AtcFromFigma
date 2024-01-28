@@ -1,0 +1,13 @@
+.title {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    &_24 {
+        font-size: 24px;
+    }
+    &_30 {
+        font-size: 30px;
+        text-transform: none;
+    }
+}
