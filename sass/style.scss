@@ -5,14 +5,14 @@
 @import 'base/mixins';
 
 * {
-    font-family: 'Red Hat Text', sans-serif;
-    margin: 0;
-    padding: 0;
+	font-family: 'Red Hat Text', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
+	width: 1200px;
+	margin: 0 auto;
 }
 
 @import 'blocks/title';
