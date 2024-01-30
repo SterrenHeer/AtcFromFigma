@@ -10,4 +10,23 @@
 		font-size: 30px;
 		text-transform: none;
 	}
+	&_stroke {
+		color: rgba(0, 0, 0, 0.5);;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: #848484;
+	}
+	&_gradient {
+		background: linear-gradient(98deg, #6DDCFF 17.63%, #7F60F9 115.95%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+.subtitle {
+	margin-top: 40px;
+	color: var(--cccccc, #CCC);
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	text-transform: lowercase;
 }
