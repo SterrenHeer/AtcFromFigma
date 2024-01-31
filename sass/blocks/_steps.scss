@@ -4,4 +4,51 @@
 	&_title {
 		margin-top: 20px;
 	}
+	&_items {
+		margin-top: 18px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 16px 11px;
+		.large {
+			width: 446px;
+			svg {
+				margin-right: 16px;
+			}
+		}
+		.gradient {
+			background: var(--Linear, linear-gradient(98deg, #6DDCFF 0%, #7F60F9 100%));
+		}
+		.back {
+			background: rgba(#2B2B2B, 0.3);
+		}
+	}
+	&_item {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 386px;
+		height: 252px;
+		border-radius: 10px;
+		border: 2px solid #2B2B2B;
+		&_title {
+			margin-bottom: 9px;
+			color: #FFF;
+			font-size: 30px;
+			font-weight: 500;
+		}
+		&_number {
+			align-self: end;
+		}
+		&_text {
+			margin: 0 0 26px 26px;
+		}
+	}
+	&_text {
+		width: 267px;
+		opacity: 0.5;
+		color: #FFF;
+		font-size: 16px;
+		font-weight: 400;
+	}
 }
