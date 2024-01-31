@@ -1,10 +1,11 @@
 .steps {
-	padding-top: 90px;
-	background: #0D0D0D;
+	margin-top: 90px;
 	&_title {
 		margin-top: 20px;
 	}
 	&_items {
+		position: relative;
+		z-index: 1;
 		margin-top: 18px;
 		display: flex;
 		justify-content: center;

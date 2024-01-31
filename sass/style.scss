@@ -10,6 +10,11 @@
 	padding: 0;
 }
 
+body {
+    background: #0D0D0D;
+    overflow-x: hidden;
+}
+
 .container {
 	width: 1200px;
 	margin: 0 auto;
@@ -42,6 +47,7 @@
 
 @import 'blocks/title';
 @import 'blocks/button';
+@import 'blocks/shapes';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/steps';

@@ -1,8 +1,7 @@
 .spheres {
 	position: relative;
-	padding: 124px 0 361px 0;
-	background: #0D0D0D;
-	overflow: hidden;
+	height: 772px;
+	margin-top: 124px;
 	&_title {
 		position: relative;
 		margin-top: 10px;
@@ -16,11 +15,14 @@
 		z-index: 2;
 	}
 	&_lines {
-		width: 3816px;
-		position: absolute;
-		top: 401px;
-		left: 0px;
+		width: 1512px;
+		height: 480px;
+		position: relative;
+		overflow: hidden;
+		top: -150px;
+		left: -156px;
 		z-index: 1;
+		white-space: nowrap;
 		&_1 {
 			position: absolute;
 			left: -23px;

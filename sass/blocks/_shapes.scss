@@ -1,0 +1,18 @@
+.shapes {
+    position: absolute;
+    z-index: 0;
+    &_wrapper {
+        position: relative;
+    }
+    &_tusk {
+        opacity: 0.7;
+        &_steps {
+            top: -74px;
+            right: -530px;
+        }
+        &_spheres {
+            top: 178px;
+            left: -1026px;
+        }
+    }
+}
