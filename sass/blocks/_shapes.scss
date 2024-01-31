@@ -1,18 +1,26 @@
 .shapes {
-    position: absolute;
-    z-index: 0;
-    &_wrapper {
-        position: relative;
-    }
-    &_tusk {
-        opacity: 0.7;
-        &_steps {
-            top: -74px;
-            right: -530px;
-        }
-        &_spheres {
-            top: 178px;
-            left: -1026px;
-        }
-    }
+	position: absolute;
+	z-index: 0;
+	&_wrapper {
+		position: relative;
+	}
+	&_tusk {
+		opacity: 0.7;
+		&_steps {
+			top: -74px;
+			right: -530px;
+		}
+		&_spheres {
+			top: 178px;
+			left: -1026px;
+		}
+		&_decisions {
+			top: -91px;
+			right: -590px;
+			&_2 {
+				top: 425px;
+				left: -1026px;
+			}
+		}
+	}
 }
