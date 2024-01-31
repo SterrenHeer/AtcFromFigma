@@ -10,6 +10,9 @@
 		font-size: 30px;
 		text-transform: none;
 	}
+	&_120 {
+		font-size: 120px;
+	}
 	&_stroke {
 		color: rgba(0, 0, 0, 0.5);;
 		-webkit-text-stroke-width: 2px;
@@ -29,4 +32,11 @@
 	font-weight: 600;
 	letter-spacing: 1.6px;
 	text-transform: lowercase;
+}
+
+.descr {
+	opacity: 0.5;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 400;
 }

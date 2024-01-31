@@ -1,0 +1,43 @@
+.spheres {
+	position: relative;
+	padding: 124px 0 361px 0;
+	background: #0D0D0D;
+	overflow: hidden;
+	&_title {
+		position: relative;
+		margin-top: 10px;
+		width: 928px;
+		z-index: 2;
+	}
+	&_text {
+		position: relative;
+		margin-top: 7px;
+		width: 495px;
+		z-index: 2;
+	}
+	&_lines {
+		width: 3816px;
+		position: absolute;
+		top: 401px;
+		left: 0px;
+		z-index: 1;
+		&_1 {
+			position: absolute;
+			left: -23px;
+			opacity: 0.3;
+		}
+		&_2 {
+			position: absolute;
+			top: 127px;
+			left: -315px;
+			opacity: 0.1;
+			color: #D9D9D9;
+		}
+		&_3 {
+			position: absolute;
+			top: 254px;
+			left: -918px;
+			opacity: 0.3;
+		}
+	}
+}
