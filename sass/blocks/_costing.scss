@@ -1,0 +1,74 @@
+.costing {
+	margin-top: 196px;
+	padding: 78px 0 127px 0;
+	min-height: 553px;
+	background: url('../img/bg/price_bg.png') no-repeat 50%/cover;
+	&_wrapper {
+		display: flex;
+		gap: 21px;
+	}
+	&_descr {
+		width: 665px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	&_form {
+		width: 455px;
+		min-height: 397px;
+		padding: 42px 30px;
+		backdrop-filter: blur(20px);
+		background: rgba(0, 0, 0, 0.2);
+		display: flex;
+		flex-direction: column;
+		input {
+			margin-bottom: 9px;
+			width: 406px;
+			height: 55px;
+			padding: 0 20px;
+			border: 1px solid rgba(#fff, 0.2);
+			border-radius: 7px;
+			background: none;
+			font-weight: 400;
+			font-size: 16px;
+			color: #fff;
+			opacity: 0.6;
+			&::placeholder {
+				font-weight: 400;
+				font-size: 16px;
+				color: #fff;
+				opacity: 0.6;
+			}
+		}
+	}
+	&_upload-descr {
+		margin-top: 34px;
+		opacity: 1;
+	}
+	&_text {
+		margin-top: 16px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 28px;
+		color: rgba(#f5f5f5, 0.7);
+	}
+	&_submit {
+		margin-top: 34px;
+		display: flex;
+		gap: 28px;
+		&_descr {
+			align-self: center;
+			width: 209px;
+			font-weight: 400;
+			font-size: 12px;
+			color: #fff;
+			opacity: 0.3;
+			.underline {
+				text-decoration: underline;
+			}
+		}
+	}
+	.btn_upload {
+		margin-top: 8px;
+	}
+}

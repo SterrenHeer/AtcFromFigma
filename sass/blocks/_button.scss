@@ -4,11 +4,11 @@
 	align-items: center;
 	border-radius: 60px;
 	background: none;
+	color: #FFF;
 	&_header {
 		height: 50px;
 		padding: 16px;
 		border: 1px solid var(--Gradient-01, #6DDCFF);
-		color: #FFF;
 		font-family: 'Inter', sans-serif;
 		font-size: 16px;
 		font-weight: 400;
@@ -17,7 +17,7 @@
 		width: 202px;
 		height: 60px;
 		border: none;
-		background: var(--Linear, linear-gradient(98deg, #6DDCFF 0%, #7F60F9 100%));
+		background: linear-gradient(96deg, #6ddcff 0%, #7f60f9 100%);
 		color: #F5F5F5;
 		font-size: 14px;
 		font-weight: 600;
@@ -34,5 +34,21 @@
 		font-size: 14px;
 		font-weight: 500;
 		line-height: 22px;
+	}
+	&_costing {
+		width: 209px;
+		height: 61px;
+		border-radius: 7px;
+		background: linear-gradient(96deg, #6ddcff 0%, #7f60f9 100%);
+		font-weight: 500;
+		font-size: 16px;
+	}
+	&_upload {
+		width: 151px;
+		height: 39px;
+		border: 1px solid #fff;
+		border-radius: 10px;
+		font-weight: 400;
+		font-size: 14px;
 	}
 }
