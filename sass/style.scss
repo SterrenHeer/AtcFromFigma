@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/fonts';
 
 * {
-	font-family: 'Red Hat Text', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 	margin: 0;
 	padding: 0;
 }
