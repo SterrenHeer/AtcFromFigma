@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+    .promo {
+        &_divider {
+            width: 100%;
+            &_left {
+                width: 47%;
+            }
+            &_center {
+                width: 16%;
+            }
+            &_right {
+                width: 37%;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .promo {
+        &_title {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .promo {
+        &_buttons {
+            width: 100%;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .promo {
+        padding-top: 180px;
+        &_title {
+            width: 100%;
+        }
+        &_descr {
+            width: 100%;
+            font-size: 16px;
+            line-height: normal;
+        }
+    }
+}

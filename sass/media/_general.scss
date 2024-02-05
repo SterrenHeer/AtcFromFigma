@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 91%;
+    }
+}
+
+@import 'title';
+@import 'button';
+@import 'shapes';
+@import 'header';
+@import 'promo';
+@import 'steps';
+@import 'spheres';
+@import 'decisions';
+@import 'about';
+@import 'region';
+@import 'reviews';
+@import 'licenses';
+@import 'costing';
+@import 'footer';

@@ -14,6 +14,8 @@
 		justify-content: flex-end;
 	}
 	&_form {
+		position: relative;
+		z-index: 1;
 		width: 455px;
 		min-height: 397px;
 		padding: 42px 30px;

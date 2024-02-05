@@ -21,7 +21,13 @@
 				padding-top: 6px;
 				padding-left: 9px;
 			}
+			&_mobile {
+				display: none;
+			}
 		}
+	}
+	&_mobile {
+		display: none;
 	}
 	&_menu {
 		gap: 50px;
@@ -42,4 +48,8 @@ nav {
 	background: rgba(255, 255, 255, 0.05);
 	backdrop-filter: blur(10px);
 	z-index: 10;
+}
+
+.toggler {
+	display: none;
 }
