@@ -1,0 +1,70 @@
+.footer {
+	padding: 69px 0 64px 0;
+	min-height: 567px;
+	&_items {
+		position: relative;
+		z-index: 1;
+		margin-top: 93px;
+		display: flex;
+		gap: 138px;
+		.titles {
+			gap: 15px;
+		}
+		.contacts {
+			gap: 28px;
+		}
+	}
+	&_item {
+		display: flex;
+		flex-direction: column;
+		gap: 7px;
+		&_link {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 24px;
+			color: #888;
+			&_address {
+				margin-bottom: 9px;
+				font-weight: 500;
+				color: #fff;
+				opacity: 0.3;
+				line-height: normal;
+			}
+			&_bottom {
+				display: flex;
+				gap: 12px;
+				color: #fff;
+				opacity: 0.2;
+			}
+		}
+	}
+	&_bottom {
+		margin-top: 47px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&_logo {
+		position: relative;
+		img {
+			position: absolute;
+			height: 73px;
+			top: -9px;
+			left: -7px;
+			opacity: 1;
+		}
+	}
+	&_social {
+		display: flex;
+		gap: 15px;
+		&_link {
+			img {
+				width: 34px;
+				height: 34px;
+			}
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+	}
+}
