@@ -25,6 +25,9 @@
 			color: #D0D0D0;
 			font-size: 20px;
 		}
+		.mobile {
+			display: none;
+		}
 	}
 	&_item {
 		display: flex;
@@ -45,6 +48,7 @@
 		&_text {
 			display: flex;
 			justify-content: space-between;
+			align-items: center;
 		}
 		&_title {
 			text-transform: none;

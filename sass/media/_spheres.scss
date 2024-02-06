@@ -25,6 +25,7 @@
 }
 @media (max-width: 576px) {
     .spheres {
+        height: 639px;
         &_lines {
             top:-37px;
             width: 725px;
@@ -39,6 +40,15 @@
             &_3 {
                 top: 154px;
                 left: -1451px;
+            }
+        }
+    }
+}
+@media (max-width: 350px) {
+    .spheres {
+        &_lines {
+            &_1, &_2, &_3 {
+                left: 0;
             }
         }
     }
