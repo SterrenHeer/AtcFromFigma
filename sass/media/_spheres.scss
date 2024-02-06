@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+    .spheres {
+        margin-top: 81px;
+        &_title, &_text {
+            width: 100%;
+        }
+        &_lines {
+            width: 1250px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .spheres {
+        &_lines {
+            width: 1250px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .spheres {
+        &_lines {
+            width: 968px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .spheres {
+        &_lines {
+            top:-37px;
+            width: 725px;
+            height: 227px;
+            &_1 {
+                left: -1005px;
+            }
+            &_2 {
+                top: 77px;
+                left: -1295px;
+            }
+            &_3 {
+                top: 154px;
+                left: -1451px;
+            }
+        }
+    }
+}
