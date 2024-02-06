@@ -19,10 +19,23 @@
         &_title {
             width: 100%;
         }
+        &_wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        &_arrows {
+            order: 2;
+            margin-top: 13px;
+        }
+        &_divider {
+            order: 1;
+            margin-top: 38px;
+        }
     }
 }
 @media (max-width: 768px) {
     .promo {
+        padding-top: 180px;
         &_buttons {
             width: 100%;
             flex-direction: column;
@@ -32,7 +45,6 @@
 }
 @media (max-width: 576px) {
     .promo {
-        padding-top: 180px;
         &_title {
             width: 100%;
         }

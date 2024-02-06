@@ -2,6 +2,9 @@
     .container {
         max-width: 960px;
     }
+    section {
+        overflow: hidden;
+    }
 }
 @media (max-width: 992px) {
     .container {

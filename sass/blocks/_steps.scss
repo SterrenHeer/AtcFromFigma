@@ -23,6 +23,9 @@
 		.back {
 			background: rgba(#2B2B2B, 0.3);
 		}
+		.border {
+			border: 2px solid #2B2B2B;
+		}
 	}
 	&_item {
 		display: flex;
@@ -31,7 +34,6 @@
 		width: 386px;
 		height: 252px;
 		border-radius: 10px;
-		border: 2px solid #2B2B2B;
 		&_title {
 			margin-bottom: 9px;
 			color: #FFF;

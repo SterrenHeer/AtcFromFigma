@@ -43,6 +43,10 @@ body {
 	}
 }
 
+.br {
+	display: none;
+}
+
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/shapes';
