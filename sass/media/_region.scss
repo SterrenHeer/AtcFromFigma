@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+    .region {
+        margin-top: 92px;
+        min-height: 617px;
+    }
+}
+@media (max-width: 768px) {
+    .region {
+        &_map {
+            top: 200px;
+            right: -297px;
+            width: 700px;
+            height: 382px;
+        }
+        &_content {
+            margin-top: 23px;
+            width: 100%;
+        }
+        &_count {
+            margin-top: 18px;
+        }
+    }
+}
+@media (max-width: 382px) {
+    .region {
+        &_count {
+            width: 100%;
+            gap: 5px;
+        }
+    }
+}
