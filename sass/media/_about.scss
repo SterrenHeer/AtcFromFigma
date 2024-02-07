@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+    .about {
+        margin-top: 85px;
+        &_items {
+            flex-wrap: wrap;
+            margin-top: 18px;
+            gap: 10px;
+            .center {
+                width: calc(100% - 19px);
+                min-height: 144px;
+            }
+        }
+        &_text {
+            margin-bottom: 8px;
+            padding: 0;
+            width: 100%;
+            order: -1;
+        }
+        &_item {
+            width: calc(50% - 24px);
+            min-height: 208px;
+            padding: 30px 0 16px 19px;
+        }
+    }
+}
