@@ -1,6 +1,9 @@
 @media (max-width: 1200px) {
     .title {
         font-size: 54px;
+        &_16 {
+            font-size: 16px;
+        }
         &_24 {
             font-size: 22px;
         }
@@ -15,6 +18,9 @@
 @media (max-width: 992px) {
     .title {
         font-size: 48px;
+        &_16 {
+            font-size: 16px;
+        }
         &_24 {
             font-size: 22px;
         }
@@ -29,6 +35,9 @@
 @media (max-width: 768px) {
     .title {
         font-size: 42px;
+        &_16 {
+            font-size: 16px;
+        }
         &_24 {
             font-size: 22px;
         }
@@ -47,6 +56,9 @@
 @media (max-width: 576px) {
     .title {
         font-size: 36px;
+        &_16 {
+            font-size: 16px;
+        }
         &_24 {
             font-size: 20px;
         }
@@ -61,6 +73,9 @@
 @media (max-width: 350px) {
     .title {
         font-size: 28px;
+        &_16 {
+            font-size: 16px;
+        }
         &_24 {
             font-size: 18px;
         }
