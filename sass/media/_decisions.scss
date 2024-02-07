@@ -1,8 +1,30 @@
 @media (max-width: 1200px) {
-
+	.decisions {
+		&_item, &_text {
+			width: 470px;
+			min-height: 470px;
+		}
+		&_items {
+			.watch {
+				width: 436px;
+				min-height: 560px;
+			}
+		}
+	}
 }
 @media (max-width: 992px) {
-
+	.decisions {
+		&_item, &_text {
+			width: 350px;
+			min-height: 350px;
+		}
+		&_items {
+			.watch {
+				width: 316px;
+				min-height: 440px;
+			}
+		}
+	}
 }
 @media (max-width: 768px) {
 	.decisions {
@@ -18,10 +40,16 @@
 			.mobile {
 				display: block;
 			}
+			.watch {
+				justify-content: center;
+				width: 100%;
+				min-height: 123px;
+				padding-bottom: 0;
+			}
 		}
 		&_item {
 			width: 100%;
-			min-height: 254px;
+			min-height: 123px;
 			gap: 8px;
 			&_picture {
 				width: 100%;
@@ -33,9 +61,13 @@
 					border-radius: 10px;
 				}
 			}
+			&_text {
+				height: 42px;
+			}
 		}
 		&_text {
 			margin-bottom: 39px;
+			min-height: 96px;
 		}
 	}
 }

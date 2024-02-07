@@ -1,0 +1,9 @@
+@media (max-width: 1200px) {
+    .shapes {
+        &_tusk {
+            &_spheres {
+                display: none;
+            }
+        }
+    }
+}
