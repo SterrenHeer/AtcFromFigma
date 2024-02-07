@@ -1,9 +1,11 @@
 .costing {
 	margin-top: 196px;
-	padding: 78px 0 127px 0;
+	padding: 70px 0 127px 0;
 	min-height: 553px;
 	background: url('../img/bg/price_bg.png') no-repeat 50%/cover;
+	border-radius: 20px;
 	&_wrapper {
+		margin-top: 29px;
 		display: flex;
 		gap: 21px;
 	}
@@ -21,6 +23,7 @@
 		padding: 42px 30px;
 		backdrop-filter: blur(20px);
 		background: rgba(0, 0, 0, 0.2);
+		border-radius: 10px;
 		display: flex;
 		flex-direction: column;
 		input {
@@ -69,8 +72,5 @@
 				text-decoration: underline;
 			}
 		}
-	}
-	.btn_upload {
-		margin-top: 8px;
 	}
 }
