@@ -54,7 +54,7 @@
 				<div class="promo_descr">Комплексное оснащение конференц-залов, ситуационных центров, переговорных комнат, учебных центров и пр.</div>
 				<div class="promo_buttons">
 					<button data-modal="consultation" class="btn btn_promo">Обсудить проект</button>
-					<button class="btn btn_promo-search">
+					<button data-modal="search" class="btn btn_promo-search">
 						<img src="icons/search.svg" alt="search"></a>
 						<span>Поиск решений. Например: Переговорные</span>
 					</button>
@@ -475,7 +475,7 @@
 						<div class="footer_item_link_address">Центральный офис</div>
 						<a href="#" class="contacts_link">г. Самара, ул. Ленина, стр. 1, офис 101</a>
 					</div>
-					<button class="btn btn_header">Остались вопросы</button>
+					<button data-modal="consultation" class="btn btn_header">Остались вопросы</button>
 				</div>
 			</div>
 			<div class="footer_bottom">
@@ -489,7 +489,7 @@
 		</div>
 	</footer>
 	<div class="modal_back">
-		<div class="modal_window" id="consultation">
+		<div class="modal_window modal_window_consult" id="consultation">
 			<div class="modal_close"><img src="icons/сlose.svg" alt="close"></div>
 			<div class="modal_content">
 				<div class="title title_30 modal_title">Получить расчет</div>
@@ -510,6 +510,43 @@
 				<div class="title title_30 modal_title">Спасибо за вашу заявку!</div>
 				<div class="descr modal_descr">Наш менеджер свяжется с вами в ближайшее время!</div>
 				<div class="descr modal_descr_mobile">Наш менеджер свяжется с вами по указанному номеру!</div>
+			</div>
+		</div>
+		<div class="modal_window modal_window_search" id="search">
+			<div class="modal_content">
+				<div class="modal_close modal_close_search"><img src="icons/сlose.svg" alt="close"></div>
+				<div class="title title_30 modal_title-search">Результаты поиска</div>
+				<div class="modal_search_items">
+					<div class="modal_search_item">
+						<div class="modal_search_content">
+							<div class="modal_search_title">Название страницы</div>
+							<div class="descr modal_search_descr">Короткое описание находится здесь</div>
+						</div>
+						<a href="#"><img src="icons/arrows/upwardarrow.svg" alt="topage"></a>
+					</div>
+					<div class="modal_search_item">
+						<div class="modal_search_content">
+							<div class="modal_search_title">Название страницы</div>
+							<div class="descr modal_search_descr">Короткое описание находится здесь</div>
+						</div>
+						<a href="#"><img src="icons/arrows/upwardarrow.svg" alt="topage"></a>
+					</div>
+					<div class="modal_search_item">
+						<div class="modal_search_content">
+							<div class="modal_search_title">Название страницы</div>
+							<div class="descr modal_search_descr">Короткое описание находится здесь</div>
+						</div>
+						<a href="#"><img src="icons/arrows/upwardarrow.svg" alt="topage"></a>
+					</div>
+					<div class="modal_search_item">
+						<div class="modal_search_content">
+							<div class="modal_search_title">Название страницы</div>
+							<div class="descr modal_search_descr">Короткое описание находится здесь</div>
+						</div>
+						<a href="#"><img src="icons/arrows/upwardarrow.svg" alt="topage"></a>
+					</div>
+					<div class="modal_search_divider"></div>
+				</div>
 			</div>
 		</div>
 	</div>

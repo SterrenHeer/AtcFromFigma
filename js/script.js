@@ -25,11 +25,17 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 $('[data-modal=consultation]').on('click', function() {
-    $('.modal_back, #consultation').fadeIn(1);
+    $('#search, #thanks').fadeOut(1);
+    $('.modal_back, #consultation').fadeIn('slow');
+});
+
+$('[data-modal=search]').on('click', function() {
+    $('#consultation, #thanks').fadeOut(1);
+    $('.modal_back, #search').fadeIn('slow');
 });
 
 $('.modal_close').on('click', function() {
-    $('.modal_back, #consultation, #thanks').fadeOut('slow');
+    $('.modal_back, #consultation, #search, #thanks').fadeOut('slow');
 });
 
 $('form').submit(function(e) {

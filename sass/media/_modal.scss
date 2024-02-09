@@ -1,3 +1,12 @@
+@media (max-width: 1200px) {
+    .modal {
+        &_window {
+            &_search {
+                width: calc(100% - 110px);
+            }
+        }
+    }
+}
 @media (max-width: 768px) {
     .modal {
         &_window {
