@@ -38,13 +38,21 @@
 		font-weight: 500;
 		line-height: 22px;
 	}
-	&_costing {
-		width: 209px;
+	&_form {
 		height: 61px;
 		border-radius: 7px;
 		background: linear-gradient(96deg, #6ddcff 0%, #7f60f9 100%);
 		font-weight: 500;
 		font-size: 16px;
+		&_costing {
+			width: 209px;
+		}
+		&_modal {
+			margin-top: 21px;
+			width: 100%;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
 	}
 	&_upload {
 		margin-top: 8px;

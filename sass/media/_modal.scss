@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .modal {
+        &_window {
+            width: calc(100% - 70px);
+            padding: 40px 20px;
+        }
+        &_content {
+            gap: 20px;
+            .br {
+                display: block;
+            }
+        }
+        &_descr {
+            display: none;
+            &_mobile {
+                display: block;
+                text-align: center;
+                font-size: 14px;
+            }
+
+        }
+    }
+}

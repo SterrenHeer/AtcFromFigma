@@ -23,3 +23,18 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
+
+$('[data-modal=consultation]').on('click', function() {
+    $('.modal_back, #consultation').fadeIn(1);
+});
+
+$('.modal_close').on('click', function() {
+    $('.modal_back, #consultation, #thanks').fadeOut('slow');
+});
+
+$('form').submit(function(e) {
+    e.preventDefault();
+    $('#consultation').fadeOut(1);
+    $('.modal_back, #thanks').fadeIn('slow');
+    $('form').trigger('reset');
+});

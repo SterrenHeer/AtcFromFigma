@@ -36,7 +36,7 @@
 				<ul class="header_contacts">
 					<li><a href="tel:79999999999" class="contacts_link">+7 (999)-999-99-99</a></li>
 					<li><a href="mailto:test@mail.ru" class="contacts_link">test@mail.ru</a></li>
-					<button class="btn btn_header">Обсудить проект</button>
+					<button data-modal="consultation" class="btn btn_header">Обсудить проект</button>
 				</ul>
 				<div class="toggler">
 					<span></span>
@@ -53,7 +53,7 @@
 				<div class="title promo_title">внедрение мультимедийных решений для конференц залов</div>
 				<div class="promo_descr">Комплексное оснащение конференц-залов, ситуационных центров, переговорных комнат, учебных центров и пр.</div>
 				<div class="promo_buttons">
-					<button class="btn btn_promo">Обсудить проект</button>
+					<button data-modal="consultation" class="btn btn_promo">Обсудить проект</button>
 					<button class="btn btn_promo-search">
 						<img src="icons/search.svg" alt="search"></a>
 						<span>Поиск решений. Например: Переговорные</span>
@@ -399,7 +399,7 @@
 					<div class="descr costing_upload-descr">Прикрепите файлы с техническим<br>заданием (необязательно)</div>
 					<button type="submit" class="btn btn_upload">Загрузить файлы</button>
 					<div class="costing_submit">
-						<button type="submit" class="btn btn_costing">Расчитать стоимость</button>
+						<button data-modal="consultation" type="submit" class="btn btn_form btn_form_costing">Расчитать стоимость</button>
 						<div class="costing_submit_descr">
 							Нажимая на кнопку, Вы принимаете <span class="underline">условия обработки персональных данных</span>
 						</div>
@@ -488,6 +488,32 @@
 			</div>
 		</div>
 	</footer>
+	<div class="modal_back">
+		<div class="modal_window" id="consultation">
+			<div class="modal_close"><img src="icons/сlose.svg" alt="close"></div>
+			<div class="modal_content">
+				<div class="title title_30 modal_title">Получить расчет</div>
+				<div class="descr modal_descr">Оставьте ваши контактные данные и получите полный расчет стоимости</div>
+				<div class="descr modal_descr_mobile">Оставьте заявку и получите<br>полный расчет стоимости</div>
+				<form class="modal_form" action="#">
+					<input name="name" type="text" placeholder="Ваше имя"> 
+					<input name="phone" type="text" placeholder="+7 (999)-999-99-99"> 
+					<input name="email" type="email" placeholder="Ваш email"> 
+					<button class="btn btn_form btn_form_modal">Получить консультацию</button>
+				</form>
+				<div class="modal_bottom">Нажимая на кнопку, Вы принимаете<br class="br"> <span class="underline">условия обработки персональных данных</span></div>
+			</div>
+		</div>
+		<div class="modal_window modal_window_mini" id="thanks">
+			<div class="modal_content">
+				<div class="modal_close"><img src="icons/сlose.svg" alt="close"></div>
+				<div class="title title_30 modal_title">Спасибо за вашу заявку!</div>
+				<div class="descr modal_descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+				<div class="descr modal_descr_mobile">Наш менеджер свяжется с вами по указанному номеру!</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
