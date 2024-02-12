@@ -30,12 +30,12 @@ $('.btn_promo-search').on('click', function() {
 });
 
 $('[data-modal=consultation]').on('click', function() {
-    $('#search, #thanks').fadeOut(1);
+    $('#search, #thanks, #license').fadeOut(1);
     $('.modal_back, #consultation').fadeIn('slow');
 });
 
 $('[data-modal=search]').on('change', function() {
-    $('#consultation, #thanks, .promo_search').fadeOut(1);
+    $('#consultation, #thanks, .promo_search, #license').fadeOut(1);
     $('.modal_back, #search, .btn_promo-search').fadeIn('slow');
 });
 
@@ -48,4 +48,16 @@ $('form').submit(function(e) {
     $('#consultation').fadeOut(1);
     $('.modal_back, #thanks').fadeIn('slow');
     $('form').trigger('reset');
+});
+
+$('.licenses_item img').click(function() {
+    let src = $(this).attr('src');
+    console.log($('.license_zoom').attr('src'))
+    $('.license_zoom').attr('src',src);
+    $('#consultation, #search, #thanks').fadeOut(1);
+    $('.modal_back, #license').fadeIn('slow');   
+});
+
+$('.license_zoom').on('click', function() {
+    $('.modal_back, license').fadeOut('slow');
 });

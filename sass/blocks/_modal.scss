@@ -30,6 +30,17 @@
                 align-self: center;
             }
         }
+        &_license {
+            width: 570px;
+		    height: 900px;
+            padding: 0;
+            background: none;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
     &_content {
         display: flex;
@@ -38,6 +49,7 @@
     }
     &_close {
         position: absolute;
+        z-index: 5;
         width: 25px;
         top: 13px;
         right: 19px;
