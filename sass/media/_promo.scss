@@ -31,6 +31,24 @@
             order: 1;
             margin-top: 38px;
         }
+        &_search {
+            order: 3;
+            &_input {
+                margin-top: 103px;
+                margin-bottom: 44px;
+            }
+            &_icon {
+                top: 124px;
+            }
+            &_tip {
+                top: 150px;
+            }
+            &:hover {
+                .promo_search_input {
+                    margin-bottom: 80px;
+                }
+            }
+        }
     }
 }
 @media (max-width: 768px) {

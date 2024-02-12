@@ -24,14 +24,19 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 })
 
+$('.btn_promo-search').on('click', function() {
+    $('.btn_promo-search').fadeOut(1);
+    $('.promo_search').fadeIn('slow');
+});
+
 $('[data-modal=consultation]').on('click', function() {
     $('#search, #thanks').fadeOut(1);
     $('.modal_back, #consultation').fadeIn('slow');
 });
 
-$('[data-modal=search]').on('click', function() {
-    $('#consultation, #thanks').fadeOut(1);
-    $('.modal_back, #search').fadeIn('slow');
+$('[data-modal=search]').on('change', function() {
+    $('#consultation, #thanks, .promo_search').fadeOut(1);
+    $('.modal_back, #search, .btn_promo-search').fadeIn('slow');
 });
 
 $('.modal_close').on('click', function() {

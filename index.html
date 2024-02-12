@@ -54,7 +54,7 @@
 				<div class="promo_descr">Комплексное оснащение конференц-залов, ситуационных центров, переговорных комнат, учебных центров и пр.</div>
 				<div class="promo_buttons">
 					<button data-modal="consultation" class="btn btn_promo">Обсудить проект</button>
-					<button data-modal="search" class="btn btn_promo-search">
+					<button class="btn btn_promo-search">
 						<img src="icons/search.svg" alt="search"></a>
 						<span>Поиск решений. Например: Переговорные</span>
 					</button>
@@ -71,9 +71,11 @@
 					<div class="promo_divider_right"></div>
 				</div>
 				<div class="promo_search">
-					<input class="promo_search_input" name="search" type="text" placeholder="Поиск решений. Например: Переговорные">
-					<img src="icons/search.svg" alt="search"></a> 
-					<img src="img/elements/tip.svg" alt="search"></a> 
+					<input data-modal="search" class="promo_search_input" name="search" type="text" placeholder="Поиск решений. Например: Переговорные">
+					<img class="promo_search_icon" src="icons/search.svg" alt="search"></a> 
+					<div class="promo_search_tip">
+						<div class="promo_search_tip_text">Проекты<br>Контакты<br>О компании</div>
+					</div>
 				</div>
 			</div>
 		</div>

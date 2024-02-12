@@ -1,6 +1,6 @@
 .promo {
-    min-height: 730px;
-    padding-top: 342px;
+    min-height: 579px;
+    padding-top: 361px;
     background: url('../img/bg/promo_bg.png') no-repeat 50%/cover;
     &_block {
         display: flex;
@@ -50,6 +50,7 @@
         }
     }
     &_search {
+        display: none;
         position: relative;
         &_input {
             position: relative;
@@ -70,10 +71,31 @@
                 outline-offset: 0;
             }
         }
-        img {
+        &_icon {
             position: absolute;
             top: 48px;
             right: 16px;
+        }
+        &_tip {
+            position: absolute;
+            background: url('../img/elements/tip.svg') no-repeat 50%/cover;
+            top: 74px;
+            left: 16px;
+            opacity: 0;
+            &_text {
+                width: 198px;
+                height: 56px;
+                padding: 20px 15px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: #71717a;
+            }
+        }
+        &:hover {
+            .promo_search_tip {
+                opacity: 1;
+            }
         }
     }
 }
