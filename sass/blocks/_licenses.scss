@@ -6,10 +6,9 @@
 	&_items {
 		margin-top: 69px;
 		display: flex;
-		gap: 13px;
 	}
 	&_item {
-		width: 190px;
+		width: 190px !important;
 		height: 300px;
 		border-radius: 10px;
 		cursor: pointer;
@@ -18,5 +17,8 @@
 			height: 100%;
 			object-fit: cover;
 		}
+	}
+	.slick-track {
+		gap: 8px;
 	}
 }

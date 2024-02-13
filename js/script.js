@@ -61,3 +61,44 @@ $('.licenses_item img').click(function() {
 $('.license_zoom').on('click', function() {
     $('.modal_back, license').fadeOut('slow');
 });
+
+$(".container").each(function(index) {
+  $('.reviews_slider', $(this)).slick({
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
+  });
+  $('.licenses_slider', $(this)).slick({
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    speed: 700,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      }
+    ]
+  });
+});

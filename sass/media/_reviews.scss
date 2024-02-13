@@ -8,6 +8,8 @@
         &_items {
             margin-top: 23px;
             margin-bottom: 24px;
+        }
+        .slick-track {
             gap: 7px;
         }
     }
@@ -18,7 +20,7 @@
 @media (max-width: 768px) {
     .reviews {
         &_item {
-            min-width: 242px;
+            min-width: 222px;
             height: 99px;
             gap: 8px;
             padding-left: 20px;

@@ -8,7 +8,6 @@
             flex-wrap: wrap;
             justify-content: center;
             margin-top: 24px;
-            gap: 8px;
             overflow: visible;
         }
         &_item {
@@ -28,25 +27,6 @@
         &_items {
             flex-wrap: nowrap;
             justify-content: start;
-        }
-        &_item {
-            min-width: 115px;
-            height: 183px;
-        }
-    }
-}
-
-@media (max-width: 390px) {
-    .licenses {
-        &_items {
-            flex-wrap: nowrap;
-        }
-        &_item {
-            min-width: 115px;
-            height: 183px;
-            &:nth-child(3) {
-                margin-right: 15px;
-            }
         }
     }
 }
