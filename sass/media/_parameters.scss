@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+    .parameters {
+        margin-top: 117px;
+        &_items {
+            flex-wrap: wrap;
+            gap: 31px;
+        }
+        &_item {
+            width: calc(50% - 31px);
+        }
+    }
+}
+@media (max-width: 768px) {
+    .parameters {
+        &_items {
+            flex-direction: column;
+        }
+        &_item {
+            width: 100%;
+        }
+        .subtitle {
+            opacity: 1;
+        }
+    }
+}

@@ -20,6 +20,12 @@
 		font-weight: 500;
 		text-transform: none;
 	}
+	&_48 {
+		font-weight: 400;
+		font-size: 48px;
+		line-height: 58px;
+		color: #fff;
+	}
 	&_120 {
 		font-size: 120px;
 		font-weight: 700;
@@ -44,6 +50,10 @@
 	font-weight: 600;
 	letter-spacing: 1.6px;
 	text-transform: lowercase;
+	&_dim {
+		margin-top: 0;
+		color: #5e5e5e;
+	}
 }
 
 .descr {
