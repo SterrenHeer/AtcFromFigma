@@ -13,6 +13,29 @@
             }
         }
     }
+    .project_promo {
+        min-height: 473px;
+        padding-top: 297px;
+        &_bg {
+            min-height: 443px;
+        }
+        &_link {
+            img {
+                width: 172px;
+            }
+        }
+        .promo_buttons {
+            gap: 10px;
+        }
+        .promo_block {
+            .title {
+                width: 100%;
+            }
+            .descr {
+                width: 100%;
+            }
+        }
+    }
 }
 @media (max-width: 992px) {
     .promo {
@@ -58,6 +81,11 @@
             width: 100%;
             flex-direction: column;
             flex-wrap: wrap;
+        }
+    }
+    .project_promo {
+        .promo_buttons {
+            flex-direction: row;
         }
     }
 }

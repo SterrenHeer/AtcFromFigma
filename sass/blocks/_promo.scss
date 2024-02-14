@@ -99,3 +99,34 @@
         }
     }
 }
+
+.project_promo {
+    min-height: 545px;
+    padding-top: 385px;
+    &_bg {
+        position: absolute;
+		top: 0;
+		left: 0;
+		min-height: 565px;
+		width: 100%;
+		background: url('../img/bg/project_promo_bg.png') no-repeat 50%/cover;
+    }
+    &_link {
+        img {
+            width: 229px;
+        }
+    }
+    .promo_buttons {
+        gap: 16px;
+    }
+    .promo_block {
+        position: relative;
+        z-index: 1;
+        .title {
+            width: 987px;
+        }
+        .descr {
+            width: 453px;
+        }
+    }
+}

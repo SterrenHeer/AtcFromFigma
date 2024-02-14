@@ -21,6 +21,19 @@
         &_promo-search {
             width: 100%;
         }
+        &_project {
+            &_main {
+                width: 141px;
+                height: 34px;
+                font-size: 12px;
+            }
+            &_video {
+                margin-top: 4px;
+                border-radius: 10px;
+                width: 100%;
+                font-size: 16px;
+            }
+        }
     }
 }
 @media (max-width: 576px) {
