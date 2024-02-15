@@ -1,0 +1,21 @@
+.gallery {
+    margin-top: 163px;
+    &_items {
+        margin-top: 23px;
+    }
+    &_item {
+        width: 100%;
+        img {
+            width: 100vw;
+            height: 613px;
+        }
+    }
+    &_wrapper {
+        position: relative;
+    }
+    &_content {
+        width: 100%;
+        position: absolute;
+        top: -76px;
+    }
+}

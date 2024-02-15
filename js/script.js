@@ -62,7 +62,7 @@ $('.license_zoom').on('click', function() {
     $('.modal_back, license').fadeOut('slow');
 });
 
-$(".container").each(function(index) {
+$("section").each(function(index) {
   $('.reviews_slider', $(this)).slick({
     dots: false,
     arrows: false,
@@ -100,5 +100,14 @@ $(".container").each(function(index) {
         }
       }
     ]
+  });
+  $('.gallery_slider', $(this)).slick({
+    autoplay: true,
+    variableWidth: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next')
   });
 });
