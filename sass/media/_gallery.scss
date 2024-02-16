@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+    .gallery {
+        padding-top: 86px;
+        &_item {
+            img {
+                height: 595px;
+                object-fit: cover;
+            }
+        }
+        &_content {
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            &:nth-child(1) {
+                order: 1;
+            }
+        }
+        .promo_divider {
+            margin-top: 0;
+        }
+    }
+}

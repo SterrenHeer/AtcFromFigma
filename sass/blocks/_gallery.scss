@@ -1,5 +1,5 @@
 .gallery {
-    margin-top: 163px;
+    padding-top: 163px;
     &_items {
         margin-top: 23px;
     }
@@ -17,5 +17,8 @@
         width: 100%;
         position: absolute;
         top: -76px;
+        .promo_arrows {
+            margin-top: 0;
+        }
     }
 }
