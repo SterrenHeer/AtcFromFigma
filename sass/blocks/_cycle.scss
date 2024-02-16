@@ -1,5 +1,5 @@
 .cycle {
-    padding-top: 107px;
+    padding: 107px 0 168px 0;
     &_items {
         display: flex;
         flex-direction: column;
@@ -25,14 +25,19 @@
     &_feedback {
         padding-top: 108px;
         &_wrapper {
+            position: relative;
+            z-index: 1;
             padding-top: 44px;
             display: flex;
-            gap: 86px 18px;
+            gap: 79px 86px;
         }
         &_content {
             display: flex;
             flex-direction: column;
+            align-items: start;
             gap: 28px;
+            width: 583px;
+            height: 447px;
             &_profile {
                 width: 165px;
                 height: 165px;
@@ -41,9 +46,38 @@
                     height: 100%;
                 }
             }
+            &_titles {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 9px;
+                img {
+                    width: 115px;
+                    height: 18px;
+                }
+            }
+        }
+        &_title {
+            font-weight: 600;
+            font-size: 20px;
+            color: #fff;
+        }
+        &_text {
+            font-weight: 400;
+            font-size: 14px;
+            color: #a1a1aa;
+        }
+        &_gratitude {
+            width: 531px;
+            max-height: 420px;
+            border-radius: 10px;
         }
         .title {
             padding-top: 44px;
+        }
+        .descr {
+            opacity: 1;
+            padding-bottom: 34px;
         }
     }
 }

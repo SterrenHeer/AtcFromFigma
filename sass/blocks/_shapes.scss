@@ -38,6 +38,11 @@
 		&_gallery {
 			display: none;
 		}
+		&_cycle {
+			top: 280px;
+			left: -665px;
+			transform: rotate(45deg);
+		}
 	}
 	&_opal {
 		opacity: 0.8;
