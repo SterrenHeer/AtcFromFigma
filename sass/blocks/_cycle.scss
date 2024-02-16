@@ -1,0 +1,49 @@
+.cycle {
+    padding-top: 107px;
+    &_items {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .border {
+            border: 2px solid #2d2d2d;
+            background: none;
+        }
+    }
+    &_item {
+        padding: 45px 23px 42px 33px;
+        border-radius: 20px;
+        height: 211px;
+        background: rgba(#131313, 0.4);
+        .title {
+            margin-top: 13px;
+        }
+        .descr {
+            margin-top: 19px;
+            width: 780px;
+        }
+    }
+    &_feedback {
+        padding-top: 108px;
+        &_wrapper {
+            padding-top: 44px;
+            display: flex;
+            gap: 86px 18px;
+        }
+        &_content {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            &_profile {
+                width: 165px;
+                height: 165px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .title {
+            padding-top: 44px;
+        }
+    }
+}
