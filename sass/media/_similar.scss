@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+	.similar {
+        &_item {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .similar {
+        padding: 58px 0 46px 0;
+        &_title {
+            margin-top: 86px;
+        }
+        &_items {
+            margin-top: 33px;
+            .mobile, .similar_item_border, .icon {
+                display: block;
+            }
+            .square, .title_gradient, .descr {
+				display: none;
+			}
+            .watch {
+                display: flex;
+                padding: 0 12px 0px 20px;
+                border: 1px solid rgba(249, 249, 249, 0.20);
+                border-radius: 10px;
+                justify-content: center;
+				min-height: 123px;
+            }
+        }
+        &_item {
+            gap: 8px;
+            min-height: 255px;
+            &_text {
+                width: 100%;
+            }
+            &_content {
+                align-items: center;
+            }
+        }
+        .hash {
+            display: inline;
+		}
+    }
+}
