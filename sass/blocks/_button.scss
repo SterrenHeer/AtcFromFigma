@@ -57,18 +57,27 @@
 			}
 		}
 	}
-	&_promo-search {
-		width: 369px;
+	&_for {
 		height: 60px;
 		gap: 13px;
-		align-self: stretch;
 		border: 2px solid #303737;
-		background: rgba(255, 255, 255, 0.01);
 		backdrop-filter: blur(7.5px);
-		color: #919191;
+		background: rgba(255, 255, 255, 0.01);
 		font-size: 14px;
-		font-weight: 400;
 		line-height: 22px;
+		&_search {
+			width: 369px;
+			font-weight: 400;
+			color: #919191;
+		}
+		&_filter {
+			position: relative;
+			z-index: 2;
+			margin-top: 16px;
+			width: 217px;
+			font-weight: 500;
+			color: #fff;
+		}
 	}
 	&_form {
 		height: 61px;
@@ -95,5 +104,14 @@
 		border-radius: 10px;
 		font-weight: 400;
 		font-size: 14px;
+	}
+	&_filter {
+		margin-top: 16px;
+		width: 217px;
+		height: 60px;
+		gap: 13px;
+		border: 2px solid #303737;
+		backdrop-filter: blur(7.5px);
+		background: rgba(255, 255, 255, 0.01);
 	}
 }

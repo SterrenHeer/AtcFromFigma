@@ -24,8 +24,8 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-$('.btn_promo-search').on('click', function() {
-    $('.btn_promo-search').fadeOut(1);
+$('.btn_for_search').on('click', function() {
+    $('.btn_for_search').fadeOut(1);
     $('.promo_search').fadeIn('slow');
 });
 
@@ -36,7 +36,7 @@ $('[data-modal=consultation]').on('click', function() {
 
 $('[data-modal=search]').on('change', function() {
     $('#consultation, #thanks, .promo_search, #license').fadeOut(1);
-    $('.modal_back, #search, .btn_promo-search').fadeIn('slow');
+    $('.modal_back, #search, .btn_for_search').fadeIn('slow');
 });
 
 $('.modal_close').on('click', function() {
@@ -52,7 +52,6 @@ $('form').submit(function(e) {
 
 $('.licenses_item img').click(function() {
     let src = $(this).attr('src');
-    console.log($('.license_zoom').attr('src'))
     $('.license_zoom').attr('src',src);
     $('#consultation, #search, #thanks').fadeOut(1);
     $('.modal_back, #license').fadeIn('slow');   
@@ -110,4 +109,32 @@ $("section").each(function(index) {
     prevArrow: $('.prev'),
     nextArrow: $('.next')
   });
+});
+
+$('#solutions').click(function(){
+  $('#solutions_opt').slideToggle(300);      
+  return false;
+});
+
+$('#spheres').click(function(){
+  $('#spheres_opt').slideToggle(300);      
+  return false;
+});
+
+$('#solutions_opt div').click(function() {
+  let text = $(this).text();
+  $('#solutions span').text(text);
+});
+
+$('#spheres_opt div').click(function() {
+  let text = $(this).text();
+  $('#spheres span').text(text);
+});
+
+$('#solutions').click(function() {
+  $('#solutions img').toggleClass('rotate');
+});
+
+$('#spheres').click(function() {
+  $('#spheres img').toggleClass('rotate');
 });
