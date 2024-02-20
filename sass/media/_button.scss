@@ -20,6 +20,11 @@
         }
         &_for {
             width: 100%;
+            &_filter {
+                justify-content: space-between;
+                padding: 0 16px;
+                font-size: 12px;
+            }
         }
         &_project {
             &_main {

@@ -10,14 +10,13 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 33px 11px;
-		.mobile, .similar_item_border, .icon {
+		.mobile, .icon {
             display: none;
 		}
 	}
 	&_item {
 		display: flex;
 		flex-direction: column;
-		gap: 24px;
 		width: 590px;
 		min-height: 520px;
 		&_picture {
@@ -31,6 +30,7 @@
 			}
 		}
 		&_content {
+			margin-top: 24px;
 			display: flex;
 			justify-content: space-between;
 		}
@@ -41,6 +41,7 @@
             width: 392px;
         }
 		&_border {
+			margin-top: 18px;
 			width: 100%;
 			height: 1px;
 			background: #191919;
@@ -73,7 +74,7 @@
 		}
 	}
     .descr {
-        margin-top: 18px;
+        margin-top: 10px;
 		width: 600px;
     }
     .hash {
