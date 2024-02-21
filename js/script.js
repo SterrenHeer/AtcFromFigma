@@ -1,37 +1,24 @@
-window.addEventListener('DOMContentLoaded', () => {
-    const menu = document.querySelector('.header_mobile'),
-    menuItem = document.querySelectorAll('.header_menu_link'),
-    button = document.querySelectorAll('.btn_header'),
-    toggler = document.querySelector('.toggler');
+$.get('header.html',function(response){ 
+  $('.header').html(response); 
+});
 
-    toggler.addEventListener('click', () => {
-        toggler.classList.toggle('toggler_active');
-        menu.classList.toggle('header_mobile_active');
-    });
-
-    menuItem.forEach(item => {
-        item.addEventListener('click', () => {
-            toggler.classList.toggle('toggler_active');
-            menu.classList.toggle('header_mobile_active');
-        })
-    })
-    
-    button.forEach(item => {
-        item.addEventListener('click', () => {
-            toggler.classList.toggle('toggler_active');
-            menu.classList.toggle('header_mobile_active');
-        })
-    })
-})
+$.get('footer.html',function(response){ 
+  $('.footer').html(response); 
+});
 
 $('.btn_for_search').on('click', function() {
     $('.btn_for_search').fadeOut(1);
     $('.promo_search').fadeIn('slow');
 });
 
-$('[data-modal=consultation]').on('click', function() {
-    $('#search, #thanks, #license').fadeOut(1);
-    $('.modal_back, #consultation').fadeIn('slow');
+$(document).on( "click", "[data-modal=consultation]", function() {
+  $('#search, #thanks, #license').fadeOut(1);
+  $('.modal_back, #consultation').fadeIn('slow');
+});
+
+$(document).on( "click", '.toggler, .header_menu_link', function() {
+  $('.toggler').toggleClass('toggler_active');
+  $('.header_mobile').toggleClass('header_mobile_active');
 });
 
 $('[data-modal=search]').on('change', function() {
