@@ -21,6 +21,13 @@
                 top: 494px;
                 left: 55px;
             }
+            &_projects {
+                top: -456px;
+                left: -19px;
+                &_2, &_3, &_4 {
+                    display: none;
+                }
+            }
         }
         &_opal {
             &_about {

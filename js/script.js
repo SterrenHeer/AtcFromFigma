@@ -112,12 +112,14 @@ $("section").each(function(index) {
 });
 
 $('#solutions').click(function(){
-  $('#solutions_opt').slideToggle(300);      
+  $('#solutions_opt').slideToggle(300);  
+  $('#spheres_opt').fadeOut(300);    
   return false;
 });
 
 $('#spheres').click(function(){
-  $('#spheres_opt').slideToggle(300);      
+  $('#spheres_opt').slideToggle(300); 
+  $('#solutions_opt').fadeOut(300);      
   return false;
 });
 

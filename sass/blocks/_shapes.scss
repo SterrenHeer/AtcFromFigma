@@ -43,6 +43,24 @@
 			left: -665px;
 			transform: rotate(45deg);
 		}
+		&_projects {
+			top: -245px;
+			left: 538px;
+			&_2 {
+				top: 490px;
+				left: -927px;
+			}
+			&_3 {
+				top: 917px;
+				left: 470px;
+				transform: rotate(90deg);
+			}
+			&_4 {
+				top: 1568px;
+				left: -409px;
+				transform: rotate(90deg);
+			}
+		}
 	}
 	&_opal {
 		opacity: 0.8;

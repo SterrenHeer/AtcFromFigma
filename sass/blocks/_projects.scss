@@ -59,6 +59,10 @@
 			display: flex;
 			gap: 6px 14px;
 		}
+		&_wrapper {
+			position: relative;
+			z-index: 3;
+		}
 		&_options {
 			display: none;
 			position: absolute;
@@ -68,9 +72,14 @@
 			border: 2px solid #303737;
 			border-radius: 25px;
 			text-align: start;
+			font-size: 14px;
+			line-height: 22px;
+			font-weight: 500;
+			color: #fff;
 		}
 		&_option {
 			padding-left: 19px;
+			cursor: pointer;
 		}
 	}
     .descr {
