@@ -1,0 +1,100 @@
+@media (max-width: 1200px) {
+    .contacts {
+        &_wrapper {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        padding: 155px 0 50px 0;
+        &_title {
+            margin-top: 26px;
+        }
+        &_wrapper {
+            margin-top: 31px;
+            padding: 0 0 60px 0;
+            border-top: none;
+        }
+        &_content {
+            width: 100%;
+        }
+        &_links {
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        &_question {
+            gap: 17px;
+            .title {
+                margin-top: 54px;
+                font-size: 30px;
+            }
+            .descr {
+                margin-top: 17px;
+                width: 258px;
+            }
+        }
+        &_form {
+            width: 100%;
+            input, textarea {
+                width: calc(100% - 40px);
+            }
+        }
+        &_submit {
+            margin-top: 17px;
+            flex-direction: column;
+            &_descr {
+                align-self: start;
+                width: 293px;
+            }
+        }
+        &_address {
+            margin-top: 52px;
+            width: 100%;
+            &_mobile {
+                display: block;
+            }
+            &_pc {
+                display: none;
+            }
+        }
+        &_map {
+            margin-top: 22px;
+            width: calc(100% + 30px);
+            margin-left: -15px;
+            height: 653px;
+            img {
+                height: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+            }
+        }
+        &_requisites {
+            padding: 52px 0 0 0;
+            &_items {
+                margin-top: 30px;
+                gap: 17px 62px;
+                width: 100%;
+                
+            }
+            .descr {
+                width: 100%;
+                &:nth-child(n+6) {
+                    display: none;
+                }
+            }
+            .title {
+                font-size: 30px;
+            }
+            
+        }
+        .mobile {
+            display: block;
+        }
+        .descr.mobile {
+            margin-top: 21px;
+        }
+    }
+}
+   
