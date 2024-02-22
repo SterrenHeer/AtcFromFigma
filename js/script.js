@@ -32,7 +32,7 @@ $('.modal_close').on('click', function() {
 
 $('form').submit(function(e) {
     e.preventDefault();
-    $('#consultation').fadeOut(1);
+    $('#consultation, #search, #license').fadeOut(1);
     $('.modal_back, #thanks').fadeIn('slow');
     $('form').trigger('reset');
 });
@@ -113,6 +113,8 @@ $('#spheres').click(function(){
 $('#solutions_opt div').click(function() {
   let text = $(this).text();
   $('#solutions span').text(text);
+  $('#solutions_opt').fadeOut(300); 
+  $('#solutions img').toggleClass('rotate');
 });
 
 $('#spheres_opt div').click(function() {
